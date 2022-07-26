@@ -46,13 +46,17 @@ change(wordlist)
 print("함수 호출후:", wordlist)
 
 # 불변형식의 전역변수는 원래 읽기만 가능
-g = 1
+# 불변형식에 읽기+쓰기를 하는 경우 global키워드 사용
+g = 0
 def testGlobal(a):
     # 불변형식을 함수 내부에서 읽기+쓰기
     global g
-    g = 2
+    g += 1
     return a+g
 
 #함수 호출
+print(testGlobal(1))
+print(testGlobal(1))
+print(testGlobal(1))
 print(testGlobal(1))
 print("전역변수 g:", g)
