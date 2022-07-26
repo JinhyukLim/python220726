@@ -19,7 +19,23 @@ for i in [2,3,4,5,6]:
 print("---break구문---")
 lst = [1,2,3,4,5,6,7,8,9,10]
 for i in lst:
+    # 다중 라인 주석처리: ctlr+/
     if i > 5:
         break
     print("Item:{0}".format(i))
+
+print("---continue구문---")
+lst = [1,2,3,4,5,6,7,8,9,10]
+for i in lst:
+    if i % 2 == 0:
+        continue
+    print("Item:{0}".format(i))
+
+#수열: 규칙이 있는 숫자의 열
+print(list(range(5)))
+print(list(range(1,11)))
+print(list(range(2000,2023)))
+#range(start,end,step)
+print(list(range(10,0,-1)))
+
 
