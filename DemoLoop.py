@@ -38,4 +38,11 @@ print(list(range(2000,2023)))
 #range(start,end,step)
 print(list(range(10,0,-1)))
 
+print("---리스트 컴프리헨션---")
+lst = list(range(1,11))
+print(lst)
+result = [i**2 for i in lst if i > 5]
+print(result)
+tp = ("apple", "kiwi", "orange")
+print([len(i) for i in tp])
 
