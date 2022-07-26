@@ -6,3 +6,4 @@ while value > 0:
     value -= 1
 
 print("---반복구문---")
+
