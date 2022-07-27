@@ -11,6 +11,7 @@ class MyClass:
 # 인스턴스 생성
 d = MyClass(5)
 # 인스턴스 메모리 삭제
-del d 
+# del d 
 
 print("---전체 코드 실행 종료---")
+
