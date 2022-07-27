@@ -8,7 +8,6 @@ try:
 
     # 함수호출
     result = divide(5,0)
-    print("결과:{0}".format(result))
 except ZeroDivisionError:
     print("0으로 나우면 안됩니다.")
 except TypeError:
@@ -17,6 +16,6 @@ else:
     print("결과:{0}".format(result))
 finally:
     print("한번 더 체크(이중체크)")
-    
+
 
 print("---전체 코드 종료---")
