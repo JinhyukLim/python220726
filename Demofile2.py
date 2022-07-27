@@ -7,9 +7,16 @@ f.close()
 f = open("c:\work\demo.txt", "rt", encoding="utf-8")
 # print(f.read())
 # 리스트에 담기
-lst = f.readlines()
-print(lst)
+# lst = f.readlines()
+# print(lst)
+print(f.readline(), end="")
+print(f.readline(), end="")
 f.close()
 
-for item in lst:
-    print(item)
+# for item in lst:
+#     print(item, end="")
+
+# 파일을 첨부(a+, wt)
+f = open("C:\\work\\demo.txt", "wt", encoding="utf-8")
+f.write("새로운 데이터\n")
+f.close()
