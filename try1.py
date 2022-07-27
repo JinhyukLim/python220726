@@ -7,7 +7,7 @@ def divide(a,b):
 try:
 
     # 함수호출
-    result = divide(5,0)
+    result = divide(5,2)
 except ZeroDivisionError:
     print("0으로 나우면 안됩니다.")
 except TypeError:
