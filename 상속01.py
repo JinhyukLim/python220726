@@ -6,6 +6,10 @@ class Person:
     def printInfo(self):
         print("Info(Name:{0}, Phone Number: {1})".format(
             self.name, self.phoneNumber))
+    def coding(self):
+        print("코딩중입니다.")
+    def eating(self):
+        print("식사중입니다.")
 
 # 자식 클래스를 정의
 class Student(Person):
@@ -17,6 +21,12 @@ class Student(Person):
         Person.__init__(self, name, phoneNumber)
         self.subject = subject
         self.studentID = studentID
+    # 상속 받은 메서드를 재정의(덮어 쓰기)
+    def printInfo(self):
+        print("Info(Name:{0}, Phone Number: {1})".format(
+            self.name, self.phoneNumber))
+        print("Info(Name:{0}, Phone Number: {1})".format(
+            self.subject, self.studentID))
 
 
 p = Person("전우치", "010-222-1234")
@@ -26,4 +36,7 @@ s.printInfo()
 
 # print(p.__dict__)
 # print(s.__dict__)
+
+s.coding()
+s.eating()
 
