@@ -1,5 +1,6 @@
 # 클래스메서드.py
 class CoeffVar(object):
+    # 공유 데이터
     coefficient = 1 
     @classmethod
     def mul(cls, fact):
