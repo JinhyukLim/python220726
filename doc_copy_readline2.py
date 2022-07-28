@@ -12,8 +12,6 @@ line = f.readline()
 #     if (re.search("\d{4}", line)):
 #         g.write(line + "\n")
 #     line = f.readline()
-
-
 while (line != ''):
     if (re.search("error", line)):
         g.write(line + "\n")
