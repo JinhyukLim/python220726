@@ -1,7 +1,7 @@
 lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2014.02.06.04)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
 RegQueryValueEx(C:\Program Files (x86)\AhnLab\APC2\Policy Agent) : 0
-hRst = 2
+hRst = 2 error 100: 에러가 발생
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmV3Pro.exe)hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmAsz.exe)lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2014.02.07.00)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
@@ -31,7 +31,7 @@ hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmAsz.exe)lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2015.05.14.01)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
 RegQueryValueEx(C:\Program Files (x86)\AhnLab\APC2\Policy Agent) : 0
-hRst = 2
+hRst = 2 error 100: 에러가 발생
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmV3Pro.exe)hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmAsz.exe)lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2015.05.27.04)
 RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
@@ -65,7 +65,7 @@ lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2016.05.19.01)
 RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
 lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2016.05.21.00)
 RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
-lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2016.05.23.06)
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2016.05.23.06) error 100: 에러가 발생
 RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
 lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2016.05.23.07)
 RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
